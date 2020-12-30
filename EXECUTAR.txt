@@ -1,0 +1,3 @@
+Linux:
+    Para executar basta digitar no terminal
+        java -jar Trabalho.jar
