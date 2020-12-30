@@ -1,5 +1,5 @@
 # GameXp_DB_USP
-#### [English version here!](https://github.com/brunereduardo/GameXp_DB_USP/blob/master/Documentos/rEadme.md)
+#### [English version here!](https://github.com/brunereduardo/GameXp_DB_USP/blob/master/Documentos/English/README.md)
 
 <p> O projeto tem como objetivo principal o desenvolvimento de um sistema de banco de dados que ofereça
   suporte para a organização do evento <a href="https://www.gamexp.com.br/">GAMES XP</a>. O foco do projeto é a
