@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_trabalho" default="compile.module.trabalho">
+  <dirname property="module.trabalho.basedir" file="${ant.file.module_trabalho}"/>
+  
+  <property name="module.jdk.home.trabalho" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.trabalho" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.trabalho" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.trabalho" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="trabalho.output.dir" value="${module.trabalho.basedir}/out/production/Trabalho"/>
+  <property name="trabalho.testoutput.dir" value="${module.trabalho.basedir}/out/test/Trabalho"/>
+  
+  <path id="trabalho.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="trabalho.module.production.classpath">
+    <path refid="${module.jdk.classpath.trabalho}"/>
+    <path refid="library.ojdbc7.classpath"/>
+  </path>
+  
+  <path id="trabalho.runtime.production.module.classpath">
+    <pathelement location="${trabalho.output.dir}"/>
+    <path refid="library.ojdbc7.classpath"/>
+  </path>
+  
+  <path id="trabalho.module.classpath">
+    <path refid="${module.jdk.classpath.trabalho}"/>
+    <pathelement location="${trabalho.output.dir}"/>
+    <path refid="library.ojdbc7.classpath"/>
+  </path>
+  
+  <path id="trabalho.runtime.module.classpath">
+    <pathelement location="${trabalho.testoutput.dir}"/>
+    <pathelement location="${trabalho.output.dir}"/>
+    <path refid="library.ojdbc7.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.trabalho">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.trabalho">
+    <patternset refid="excluded.from.module.trabalho"/>
+  </patternset>
+  
+  <path id="trabalho.module.sourcepath">
+    <dirset dir="${module.trabalho.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.trabalho" depends="compile.module.trabalho.production,compile.module.trabalho.tests" description="Compile module Trabalho"/>
+  
+  <target name="compile.module.trabalho.production" depends="register.custom.compilers" description="Compile module Trabalho; production classes">
+    <mkdir dir="${trabalho.output.dir}"/>
+    <javac2 destdir="${trabalho.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.trabalho}/javac">
+      <compilerarg line="${compiler.args.trabalho}"/>
+      <bootclasspath refid="trabalho.module.bootclasspath"/>
+      <classpath refid="trabalho.module.production.classpath"/>
+      <src refid="trabalho.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.trabalho"/>
+    </javac2>
+    
+    <copy todir="${trabalho.output.dir}">
+      <fileset dir="${module.trabalho.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.trabalho.tests" depends="register.custom.compilers,compile.module.trabalho.production" description="compile module Trabalho; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.trabalho" description="cleanup module">
+    <delete dir="${trabalho.output.dir}"/>
+    <delete dir="${trabalho.testoutput.dir}"/>
+  </target>
+</project>
