@@ -6,4 +6,4 @@
 <br><a href="https://github.com/brunereduardo">Bruner Eduardo Augusto Albrecht</a></br>
 <br><a href="https://github.com/CarlosSantosJr">Carlos R Dos Santos Junior</a></br>
 <br>Marcelo Foresto Porto da Costa</br>
-<br>William Luis Alves Ferreira</br></p>
+<br><a href="https://github.com/illiamw">William Luis Alves Ferreira</a></br></p>
