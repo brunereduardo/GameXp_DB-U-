@@ -37,6 +37,7 @@ $ java Main.class
 ### 🚀 Technology
 
 ### License
+<p>This project is under the MIT license, for more information look for the file <a href = "https://github.com/brunereduardo/GameXp_DB_USP/blob/master/LICENSE">LICENSE.</p>
 
 ### Authors
 Implemented and created with ❤️ by [Bruner Eduardo Augusto Albrecht](https://github.com/brunereduardo) | [Carlos R Dos Santos Junior](https://github.com/CarlosSantosJr) | Marcelo Foresto Porto da Costa | [William Luis Alves Ferreira](https://github.com/illiamw) 👋🏽
