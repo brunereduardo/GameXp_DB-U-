@@ -5,7 +5,7 @@
 ## Project description
 <p>The project's main goal is the development of a database system that supports a <a href="https://www.gamexp.com.br/">GAMES XP</a> event organization. The focus of 
 the project is a system database designed for data persistence. In addition, with the aim of integrating the knowledge of different disciplines and bringing the project 
-closer to a more practical and real scenario.Para mais informações, basta procurar pelo arquivo .PDF na pasta <a href="https://github.com/brunereduardo/GameXp_DB_USP/tree/master/Documentos">Documentos.</a></p>
+closer to a more practical and real scenario. Para mais informações, basta procurar pelo arquivo .PDF na pasta <a href="https://github.com/brunereduardo/GameXp_DB_USP/tree/master/Documentos">Documentos.</a></p>
 
 
 <p align="center">
