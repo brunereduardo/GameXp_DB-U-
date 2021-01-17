@@ -21,7 +21,19 @@ closer to a more practical and real scenario.</p>
 ### Prerequisites
 
 ### Running the Application 🎲
+```bash
+# Clone this repository
+$ git clone https://github.com/brunereduardo/GameXp_DB_USP
 
+# Access the project folder on terminal/cmd
+$ cd GameXp_DB_USP/Trabalho/src/com/company/
+
+# Compile all .java files into the folder 
+$ javac *.java
+
+# Run the application on the file Main.class
+$ java Main.class
+```
 ### 🚀 Technology
 
 ### License
