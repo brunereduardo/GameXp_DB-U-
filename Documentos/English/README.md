@@ -15,10 +15,13 @@ closer to a more practical and real scenario.</p>
 </p>
 
 <h4 align="center"> 
-	🚧  Built during 2017 🚧 The java libraries for GUI have changed and the Frontend needs to be redone 🚧
+	🚧 Built during the matter of Database 🚧 Frontend under repair 🚧
 </h4>
 
 ### Prerequisites
+Para começar a se aventurar pelo projeto você vai precisar instalar em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com) e um editor para trabalhar com o código, como [VSCode](https://code.visualstudio.com/), que servirá para todos os propósitos. To compile the programs it is only necessary to have installed java (together with the JDK). Finally, it is necessary to have access to a terminal, or to an IDE (such as IntelliJ IDEA), to build the application.
+
 
 ### Running the Application 🎲
 ```bash
