@@ -29,10 +29,13 @@ Para começar a se aventurar pelo projeto você vai precisar instalar em sua má
 $ git clone https://github.com/brunereduardo/GameXp_DB_USP
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd GameXp_DB_USP/Trabalho/
+$ cd GameXp_DB_USP/Trabalho/src/com/company/
 
-# Execute a aplicação com o seguinte comando para injetar qualquer caso de test e compare a saída com os arquivos .out
-$ python3  compiler.py < Compiler_Py_USP/Tests/nome_do_arquivo_de_entrada_test.txt 
+# Compile todos os arquivos .java dentro da pasta
+$ javac *.java 
+
+# Execute a aplicação no arquivo Main.class
+$ java Main.class
 ```
 
 ### 🚀 Tecnologias
