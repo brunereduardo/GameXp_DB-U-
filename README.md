@@ -42,9 +42,12 @@ $ java Main.class
 
 A seguintes ferramenta e bibliotecas foram usadas na construção do projeto:
 
-- JFlap
-- sys.py
-- pprint.py 
+- Pl/SQL (backend)
+- javax.swing 
+- java.awt
+- java.sql
+- java.text
+- java.util
 
 ### Licença
 
