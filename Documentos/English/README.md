@@ -21,7 +21,7 @@ closer to a more practical and real scenario. Para mais informações, basta pro
 
 ### Prerequisites
 Para começar a se aventurar pelo projeto você vai precisar instalar em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) e um editor para trabalhar com o código, como [VSCode](https://code.visualstudio.com/), que servirá para todos os propósitos. To compile the programs it is only necessary to have installed java (together with the JDK). Finally, it is necessary to have access to a terminal, or to an IDE (such as IntelliJ IDEA), to build the application.
+[Git](https://git-scm.com) and an editor to work with the code, like [VSCode](https://code.visualstudio.com/), which will serve all purposes. To compile the programs it is only necessary to have installed java (together with the JDK). Finally, it is necessary to have access to a terminal, or to an IDE (such as IntelliJ IDEA), to build the application.
 
 
 ### Running the Application 🎲
