@@ -20,7 +20,7 @@ closer to a more practical and real scenario. Para mais informações, basta pro
 </h4>
 
 ### Prerequisites
-Para começar a se aventurar pelo projeto você vai precisar instalar em sua máquina as seguintes ferramentas:
+To start venturing through the project you will need to install the following tools on your pc:
 [Git](https://git-scm.com) and an editor to work with the code, like [VSCode](https://code.visualstudio.com/), which will serve all purposes. To compile the programs it is only necessary to have installed java (together with the JDK). Finally, it is necessary to have access to a terminal, or to an IDE (such as IntelliJ IDEA), to build the application.
 
 
@@ -39,6 +39,14 @@ $ javac *.java
 $ java Main.class
 ```
 ### 🚀 Technology
+The following tool and libraries were used to build the project:
+
+- Pl/SQL (backend)
+- javax.swing 
+- java.awt
+- java.sql
+- java.text
+- java.util
 
 ### License
 <p>This project is under the MIT license, for more information look for the file <a href = "https://github.com/brunereduardo/GameXp_DB_USP/blob/master/LICENSE">LICENSE.</a></p>
